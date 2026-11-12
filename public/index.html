@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <script>document.documentElement.classList.add("js")</script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Senu Labs — Apps, VR Experiences &amp; 3D Models</title>
+  <meta name="description" content="Senu Labs builds mobile & desktop apps, immersive VR applications, and production-ready 3D model packages." />
+  <meta name="theme-color" content="#050807" />
+
+  <!-- Open Graph / social sharing -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Senu Labs — Apps, VR Experiences & 3D Models" />
+  <meta property="og:description" content="Apps, immersive VR applications, and production-ready 3D model packages." />
+  <meta property="og:image" content="/assets/img/og-image.jpg" />
+  <meta name="twitter:card" content="summary_large_image" />
+
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicon-32.png" />
+  <link rel="icon" type="image/png" sizes="64x64" href="/assets/img/favicon-64.png" />
+  <link rel="apple-touch-icon" href="/assets/img/apple-touch-icon.png" />
+  <link rel="manifest" href="/site.webmanifest" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/assets/css/styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- ============ HEADER ============ -->
+  <header class="site-header" id="top">
+    <nav class="nav container" aria-label="Primary">
+      <a href="#top" class="brand" aria-label="Senu Labs home">
+        <img src="/assets/img/logo-192.png" alt="" width="40" height="40" />
+        <span>Senu<span class="accent">Labs</span></span>
+      </a>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="nav-menu" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-menu" id="nav-menu">
+        <li><a href="#services">Services</a></li>
+        <li><a href="#work">Work</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact" class="btn btn-sm btn-primary">Get in touch</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main">
+    <!-- ============ HERO ============ -->
+    <section class="hero">
+      <div class="hero-grid" aria-hidden="true"></div>
+      <div class="hero-glow" aria-hidden="true"></div>
+      <div class="container hero-inner">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="pulse"></span> Digital studio · Sri Lanka</p>
+          <h1>We build <span class="gradient-text">apps, worlds</span><br />and the models that fill them.</h1>
+          <p class="lead">
+            Senu Labs designs and develops applications, immersive VR experiences,
+            and production-ready 3D model packages for games, simulations and real-time projects.
+          </p>
+          <div class="hero-actions">
+            <a href="#work" class="btn btn-primary">Explore our work
+              <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </a>
+            <a href="#contact" class="btn btn-ghost">Start a project</a>
+          </div>
+          <ul class="hero-stats">
+            <li><strong data-count="30">30</strong><span>3D models shipped</span></li>
+            <li><strong data-count="20">20</strong><span>Animated assets</span></li>
+            <li><strong>3</strong><span>Disciplines</span></li>
+          </ul>
+        </div>
+
+        <div class="hero-visual">
+          <canvas id="morph" aria-label="Interactive 3D particle animation morphing between a phone, a sphere and a knot" role="img"></canvas>
+          <div class="morph-chips" role="group" aria-label="Choose a shape">
+            <button type="button" class="chip active" data-shape="0">Apps</button>
+            <button type="button" class="chip" data-shape="1">VR Worlds</button>
+            <button type="button" class="chip" data-shape="2">3D Models</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ SERVICES ============ -->
+    <section class="section" id="services">
+      <div class="container">
+        <header class="section-head reveal">
+          <p class="eyebrow">What we do</p>
+          <h2>Three disciplines. One studio.</h2>
+          <p class="section-sub">From the first line of code to the last polygon, we build complete digital experiences.</p>
+        </header>
+
+        <div class="cards-3">
+          <article class="service-card reveal">
+            <div class="icon">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="6" y="2" width="12" height="20" rx="3"/><path d="M10 18h4"/></svg>
+            </div>
+            <h3>Apps</h3>
+            <p>Clean, fast and reliable mobile and desktop applications — designed around real users and built to scale.</p>
+            <ul class="ticks">
+              <li>Mobile &amp; desktop</li>
+              <li>UI / UX design</li>
+              <li>Research-driven tools</li>
+            </ul>
+          </article>
+
+          <article class="service-card reveal">
+            <div class="icon">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 8a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v7a2 2 0 0 1-2 2h-4l-2-3h-2l-2 3H5a2 2 0 0 1-2-2z"/><circle cx="8" cy="11.5" r="1.5"/><circle cx="16" cy="11.5" r="1.5"/></svg>
+            </div>
+            <h3>VR Applications</h3>
+            <p>Immersive virtual reality experiences for training, education, visualisation and entertainment.</p>
+            <ul class="ticks">
+              <li>Interactive simulations</li>
+              <li>Training &amp; education</li>
+              <li>Real-time 3D environments</li>
+            </ul>
+          </article>
+
+          <article class="service-card reveal">
+            <div class="icon">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2 3 7v10l9 5 9-5V7z"/><path d="M3 7l9 5 9-5M12 12v10"/></svg>
+            </div>
+            <h3>3D Models</h3>
+            <p>Game-ready 3D model packs with animation — ready to drop into Unity, Unreal and other real-time engines.</p>
+            <ul class="ticks">
+              <li>Themed asset packs</li>
+              <li>Rigged &amp; animated</li>
+              <li>Environment props</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ WORK / PORTFOLIO ============ -->
+    <section class="section section-alt" id="work">
+      <div class="container">
+        <header class="section-head reveal">
+          <p class="eyebrow">Our work</p>
+          <h2>Created at Senu Labs</h2>
+          <p class="section-sub">A growing library of releases across all three disciplines.</p>
+        </header>
+
+        <div class="tabs reveal" role="tablist" aria-label="Project categories">
+          <button role="tab" aria-selected="true" aria-controls="panel-models" id="tab-models" class="tab active">3D Models</button>
+          <button role="tab" aria-selected="false" aria-controls="panel-apps" id="tab-apps" class="tab" tabindex="-1">Apps</button>
+          <button role="tab" aria-selected="false" aria-controls="panel-vr" id="tab-vr" class="tab" tabindex="-1">VR Apps</button>
+        </div>
+
+        <!-- 3D MODELS -->
+        <div class="tab-panel" id="panel-models" role="tabpanel" aria-labelledby="tab-models">
+          <div class="projects">
+            <!--
+              To add a new model pack, copy one <article class="project"> block below
+              and change the image, title, description, tags and link.
+            -->
+            <article class="project project-featured reveal">
+              <button class="project-media" data-lightbox="/assets/img/models/prehistoric-oceans.webp" aria-label="View Prehistoric Oceans preview full size">
+                <picture>
+                  <source srcset="/assets/img/models/prehistoric-oceans.webp" type="image/webp" />
+                  <img src="/assets/img/models/prehistoric-oceans.jpg" alt="Prehistoric Oceans 3D model pack: corals, sponges, sea pens, rock spires and ancient sea creatures on a sandy seafloor" width="1200" height="630" loading="lazy" />
+                </picture>
+                <span class="badge">New release</span>
+              </button>
+              <div class="project-body">
+                <p class="project-kicker">3D Model Pack</p>
+                <h3>Prehistoric Oceans</h3>
+                <p class="project-tagline">Animated Ancient Sea Life &amp; Seafloor Pack</p>
+                <p>
+                  Bring the ancient seas to life. A complete underwater environment kit featuring
+                  prehistoric creatures, corals, sponges, sea pens and towering rock formations —
+                  built for games, educational apps and VR experiences.
+                </p>
+                <ul class="specs">
+                  <li><strong>30</strong><span>Models</span></li>
+                  <li><strong>20</strong><span>Animated</span></li>
+                  <li><strong>1</strong><span>Complete scene</span></li>
+                </ul>
+                <ul class="tags">
+                  <li>Underwater</li><li>Creatures</li><li>Environment</li><li>Animated</li>
+                </ul>
+                <div class="project-actions">
+                  <!-- Replace href with the store link (e.g. Unity Asset Store / Fab) when available -->
+                  <a class="btn btn-primary" href="mailto:dilansenuruk@gmail.com?subject=Prehistoric%20Oceans%20-%203D%20Model%20Pack">Enquire about this pack</a>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+
+        <!-- APPS -->
+        <div class="tab-panel" id="panel-apps" role="tabpanel" aria-labelledby="tab-apps" hidden>
+          <div class="coming-soon">
+            <div class="cs-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="6" y="2" width="12" height="20" rx="3"/><path d="M10 18h4"/></svg></div>
+            <h3>Apps are on the way</h3>
+            <p>Our first applications are in development. Have an idea you want built? Let's talk.</p>
+            <a href="#contact" class="btn btn-ghost">Discuss an app project</a>
+          </div>
+        </div>
+
+        <!-- VR APPS -->
+        <div class="tab-panel" id="panel-vr" role="tabpanel" aria-labelledby="tab-vr" hidden>
+          <div class="coming-soon">
+            <div class="cs-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 8a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v7a2 2 0 0 1-2 2h-4l-2-3h-2l-2 3H5a2 2 0 0 1-2-2z"/><circle cx="8" cy="11.5" r="1.5"/><circle cx="16" cy="11.5" r="1.5"/></svg></div>
+            <h3>VR experiences coming soon</h3>
+            <p>Immersive worlds are being built right now. Interested in a custom VR experience?</p>
+            <a href="#contact" class="btn btn-ghost">Discuss a VR project</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ PROCESS ============ -->
+    <section class="section" id="process">
+      <div class="container">
+        <header class="section-head reveal">
+          <p class="eyebrow">How we work</p>
+          <h2>From idea to release</h2>
+        </header>
+        <ol class="process">
+          <li class="reveal"><span class="step">01</span><h3>Discover</h3><p>We understand your goals, users and constraints before anything gets built.</p></li>
+          <li class="reveal"><span class="step">02</span><h3>Design</h3><p>Concepts, prototypes and visual direction — validated early and iterated fast.</p></li>
+          <li class="reveal"><span class="step">03</span><h3>Build</h3><p>Engineering, modelling and animation with a research-grade attention to detail.</p></li>
+          <li class="reveal"><span class="step">04</span><h3>Deliver</h3><p>Optimised, tested and shipped — with support after launch.</p></li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ============ ABOUT ============ -->
+    <section class="section section-alt" id="about">
+      <div class="container about">
+        <div class="about-card reveal">
+          <div class="avatar" aria-hidden="true">DS</div>
+          <div>
+            <h3>Dilan Senuruk</h3>
+            <p class="role">Founder · Research Engineer</p>
+          </div>
+        </div>
+        <div class="about-copy reveal">
+          <p class="eyebrow">About Senu Labs</p>
+          <h2>Engineering rigour, creative craft.</h2>
+          <p>
+            Senu Labs was founded by <strong>Dilan Senuruk</strong>, a research engineer with a passion
+            for interactive technology. The studio brings a research mindset to creative work —
+            combining careful engineering with strong visual design to build apps, VR applications
+            and 3D content that are both beautiful and dependable.
+          </p>
+          <p>
+            Whether you need a custom application, an immersive VR experience, or high-quality 3D
+            assets for your next project, Senu Labs is ready to help.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CONTACT ============ -->
+    <section class="section" id="contact">
+      <div class="container">
+        <div class="contact reveal">
+          <div class="contact-copy">
+            <p class="eyebrow">Contact</p>
+            <h2>Let's build something together.</h2>
+            <p>Have a project in mind, a question about a model pack, or a collaboration idea? Get in touch.</p>
+          </div>
+          <div class="contact-list">
+            <a class="contact-item" href="mailto:dilansenuruk@gmail.com">
+              <span class="ci-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg></span>
+              <span><small>Email</small>dilansenuruk@gmail.com</span>
+            </a>
+            <a class="contact-item" href="tel:+94766718882">
+              <span class="ci-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2"/></svg></span>
+              <span><small>Phone</small>+94 76 671 8882</span>
+            </a>
+            <div class="contact-item static">
+              <span class="ci-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="8" r="4"/><path d="M4 21a8 8 0 0 1 16 0"/></svg></span>
+              <span><small>Founder</small>Dilan Senuruk · Research Engineer</span>
+            </div>
+            <button class="btn btn-ghost copy-email" type="button" data-email="dilansenuruk@gmail.com">Copy email address</button>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <a href="#top" class="brand">
+        <img src="/assets/img/logo-192.png" alt="" width="32" height="32" loading="lazy" />
+        <span>Senu<span class="accent">Labs</span></span>
+      </a>
+      <p>Apps · VR Applications · 3D Models</p>
+      <p class="copy">&copy; <span id="year">2026</span> Senu Labs. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Lightbox -->
+  <div class="lightbox" id="lightbox" hidden>
+    <button class="lightbox-close" aria-label="Close preview">&times;</button>
+    <img alt="" />
+  </div>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <script src="/assets/js/main.js" defer></script>
+  <script src="/assets/js/morph.js" defer></script>
+</body>
+</html>
